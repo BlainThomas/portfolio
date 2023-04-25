@@ -5,7 +5,7 @@ I'm Blain, a Full Stack Web Developer based in Boise, Idaho. I have a passion fo
 
 
 ## Portfolio Website
-
+[See Portfolio](https://blain-thomas.vercel.app)
 
 ### To collaborate with me or to hire me, please contact me at:  
 [email](mailto:BlainThomas@gmail.com)  
