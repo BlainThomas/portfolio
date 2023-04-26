@@ -10,9 +10,10 @@ const ProjectCard = ({ project, index }) => {
       <div className='flex flex-col bg-white rounded-lg shadow overflow-hidden'>
         <div
           className='h-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden'
-          style={style}
           title={project.title}
-        ></div>
+        >
+          <img src={project.image} />
+        </div>
         <div className='flex flex-col p-4 h-full'>
           <div className='flex-1'>
             <div className='px-6 py-4'>
@@ -39,7 +40,7 @@ const ProjectCard = ({ project, index }) => {
                   Demo Account:
                 </h1>
                 <span className='text-slate-700'>
-                  Email: {project.demoAccount.email}
+                  UserName: {project.demoAccount.email}
                 </span>
                 <span className='text-slate-700'>
                   Password: {project.demoAccount.password}
@@ -56,14 +57,14 @@ const ProjectCard = ({ project, index }) => {
             >
               See Live
             </a>
-            <a
+            {/* <a
               href={project.sourceCode}
               target='_blank'
               rel='noreferrer'
               className='cursor-pointer bg-blue-400 hover:bg-blue-500 text-white font-semibold py-2 px-4 border border-blue-500 rounded shadow'
             >
               Source Code
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
