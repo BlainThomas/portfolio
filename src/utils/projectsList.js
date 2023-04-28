@@ -1,5 +1,6 @@
 import BadBilliardsWeb from '../img/BadBilliardsWeb.png'
 import BadBilliardsGame from '../img/BadBilliardGame.png'
+import DevFinder from '../img/DevFinder.png'
 
 
 
@@ -71,19 +72,19 @@ export const projectsList = [
     liveDemo: 'https://play.google.com/store/apps/details?id=com.dev_on.badabilliards',
     sourceCode: '',
   },
-  // {
-  //   title: 'Find a Business',
-  //   description:
-  //     'A React app that uses your google API key to search for businesses and locations around the world',
-  //   image: BadBilliardsWeb,
-  //   tech: [
-  //     'React',
-  //     'TypeScript',
-  //     'Netlify',
-  //     'GoogleMaps',
-  //   ],
-  //   liveDemo: '',
-  //   sourceCode: '',
-  // },
+  {
+    title: 'devFinder',
+    description:
+      'A simple React app that searches for the profile from GitHub.',
+    image: DevFinder,
+    tech: [
+      'React',
+      'TypeScript',
+      'Netlify',
+      'API',
+    ],
+    liveDemo: 'https://devs-dev-finder.netlify.app/',
+    sourceCode: 'https://github.com/BlainThomas/devFinder',
+  },
   
 ];
