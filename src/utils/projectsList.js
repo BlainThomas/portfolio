@@ -1,6 +1,8 @@
 import BadBilliardsWeb from '../img/BadBilliardsWeb.png'
 import BadBilliardsGame from '../img/BadBilliardGame.png'
 import DevFinder from '../img/DevFinder.png'
+import Web3MessageMe from '../img/Web3MessageMe.png'
+import EchoAlley from '../img/EchoAlley.png'
 
 
 
@@ -85,6 +87,36 @@ export const projectsList = [
     ],
     liveDemo: 'https://devs-dev-finder.netlify.app/',
     sourceCode: 'https://github.com/BlainThomas/devFinder',
+  },
+  {
+    title: 'Web3MessageMe',
+    description:
+      'A React app that uses web3 to sign and congirm signatures on the blockchain.',
+    image: Web3MessageMe,
+    tech: [
+      'React',
+      'TypeScript',
+      'Netlify',
+      'Web3',
+    ],
+    liveDemo: 'https://web3messageme.netlify.app/',
+    sourceCode: 'https://github.com/BlainThomas/web3MessageMe',
+  },
+  {
+    title: 'Echo Alley',
+    description:
+      'A React social media app that uses web3 to post messages with a profile picture.',
+    image: EchoAlley,
+    tech: [
+      'React',
+      'TypeScript',
+      'Vercel',
+      'Web3',
+      'Solidity',
+      'test network',
+    ],
+    liveDemo: 'https://echo-alley.vercel.app/',
+    sourceCode: 'https://github.com/BlainThomas/echo-alley',
   },
   
 ];
