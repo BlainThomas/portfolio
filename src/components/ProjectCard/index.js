@@ -57,14 +57,15 @@ const ProjectCard = ({ project, index }) => {
             >
               See Live
             </a>
-            {/* <a
+            {project.sourceCode.length > 0 && 
+            <a
               href={project.sourceCode}
               target='_blank'
               rel='noreferrer'
               className='cursor-pointer bg-blue-400 hover:bg-blue-500 text-white font-semibold py-2 px-4 border border-blue-500 rounded shadow'
             >
               Source Code
-            </a> */}
+            </a>}
           </div>
         </div>
       </div>
